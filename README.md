@@ -14,10 +14,11 @@ While installing the database, install any databases that come with it.
 2. Download the `peps_new' database files and store this in the MySQL data directory. For instance, on my computer, this 'data'
 is in the folling folder 'D:\ProgramData\MySQL\MySQL Server 5.6\data'
 3. Then you have to recover this database.  First shutdown the MySQL database. 
-   Then add the following lines in the 'my.ini' file, and save the file.
-   innodb_force_recovery=1 
-   Then start the database. The database will be recovered. 
-   Then stop the database, comment the above line and start it again - this will start the database in normal mode.
+   Then add the following lines in the 'my.ini' file (on my machine, it exists in 'D:\ProgramData\MySQL\MySQL Server 5.6' directory), and save the file.
+   `innodb_force_recovery=1` 
+   Then start the database via the Windows service and the database will be recovered. 
+   Then stop the database, comment the above line and start the database again. 
+   This will start the database in normal mode, and it will be ready for queries.
 
 B. Code
 The code consists of two aspects. The Java code and the dependent libraries. 
