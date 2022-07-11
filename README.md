@@ -8,7 +8,9 @@ A. Database
 The database is names `peps_new' and is 35GB in size and is hosted on kaggle at this address. 
 The easiest way to recreate the MySQL database is to recover the database on another machine. 
 For this carry out the following steps: 
-1. First install the MySQL database version 5.6, and in doing so install any databases that come with it.
+1. First install the MySQL database version 5.6.25 from this link https://downloads.mysql.com/archives/community/. 
+Choose the Product version 5.6.25, Microsoft Windows, and Windows (x86, 64 bit).
+In doing so install any databases that come with it.
 2. Download the `peps_new' database files and store this in the MySQL data directory. For instance, on my computer, this 'data'
 is in the folling folder 'D:\ProgramData\MySQL\MySQL Server 5.6\data'
 3. Then you have to recover this database.  First shutdown the MySQL database. 
