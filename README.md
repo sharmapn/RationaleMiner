@@ -2,6 +2,20 @@
 Replication Package for Rationale Miner
 
 The rationale Miner consists of two parts: the database (in MySQL format) and the Rationale Miner code (in Java).
+In brief, the basic tasks in these two parts aare as follows.  
+
+A. Database
+- install the required version of the MySQL DBMS
+- restore the ‘peps_new’ database, 
+B. Code
+- install the Eclipse IDE for the code, and
+- configure the projects in Eclipse 
+- copy the libraries in the `lib’ directory
+
+The Chart generation 
+- 
+
+In detail, the steps to set up the Database and code are as follows.
 
 A. Database
 
