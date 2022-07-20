@@ -7,6 +7,7 @@ In brief, the basic tasks in these two parts aare as follows.
 A. Database
 - install the required version of the MySQL DBMS
 - restore the ‘peps_new’ database, 
+
 B. Code
 - install the Eclipse IDE for the code, and
 - configure the projects in Eclipse 
