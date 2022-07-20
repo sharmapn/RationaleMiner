@@ -33,6 +33,7 @@ is in the following folder `D:\ProgramData\MySQL\MySQL Server 5.6\data` as the `
    `innodb_force_recovery=1` 
 
    Then start the database via the Windows service and the database will be recovered. 
+   
    Then stop the database, comment the above line and start the database again. 
    This will start the database in normal mode, and it will be ready for queries. 
 
