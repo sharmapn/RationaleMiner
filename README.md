@@ -19,15 +19,16 @@ In detail, the steps to set up the Database and code are as follows.
 **A. Database**
 
 The database is named `peps_new'. A 6GB zipfile is hosted on kaggle at this address. It contains the entire MySQL data directory 
-and when unzipped is 35GB in size. 
-This is easiest way to recreate the MySQL database: to recover the database on another machine. 
-For this carry out the following steps: 
+and when unzipped is 35GB in size. <br/>
+This is easiest way to recreate the MySQL database: to recover the database on another machine. <br/>
+For this carry out the following steps: <br/>
 1. First install the MySQL Community Server database version 5.6.25 from this link https://downloads.mysql.com/archives/community/. 
 Choose the Product version 5.6.25, Microsoft Windows, and Windows (x86, 64 bit).
 While installing the database, install any sample or system databases that come with it.
 
-2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. 
-Store this folder in the MySQL data directory **replacing the existing 'data' folder**. 
+2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. <br/>
+Stop the MySQL database service. <br/>
+Store this folder in the MySQL data directory **replacing the existing 'data' folder**. <br/>
 For instance, on my computer, this 'data' folder is in the following directory `D:\ProgramData\MySQL\MySQL Server 5.6\data`.
 
 3. Then you have to recover this database.  First shutdown the MySQL database. 
