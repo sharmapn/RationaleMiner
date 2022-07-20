@@ -29,10 +29,10 @@ While installing the database, install any sample or system databases that come 
 2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. <br/>
 Stop the MySQL database service. <br/>
 Store this folder in the MySQL data directory **replacing the existing 'data' folder**. <br/>
-For instance, on my computer, this 'data' folder is in the following directory `D:\ProgramData\MySQL\MySQL Server 5.6\data`.
+For instance, on my computer, this 'data' folder is in the following directory `C:\ProgramData\MySQL\MySQL Server 5.6\data`.
 
 3. Then you have to recover this database.  First shutdown the MySQL database. 
-   Then add the following lines in the `my.ini` file (on my machine, it exists in `D:\ProgramData\MySQL\MySQL Server 5.6` directory), and save the file.
+   Then add the following lines in the `my.ini` file (on my machine, it exists in `C:\ProgramData\MySQL\MySQL Server 5.6` directory), and save the file.
 
    `innodb_force_recovery=1` 
 
