@@ -14,11 +14,11 @@ B. Code
 - copy the libraries in the `lib’ directory
 
 The Chart generation 
-- 
+
 
 In detail, the steps to set up the Database and code are as follows.
 
-A. Database
+**A. Database**
 
 The database is names `peps_new' and is 35GB in size and is hosted on kaggle at this address. 
 The easiest way to recreate the MySQL database is to recover the database on another machine. 
@@ -35,7 +35,7 @@ is in the following folder `D:\ProgramData\MySQL\MySQL Server 5.6\data` as the `
    Then stop the database, comment the above line and start the database again. 
    This will start the database in normal mode, and it will be ready for queries.
 
-B. Code
+**B. Code**
 The code consists of two aspects. The Java code and the dependent libraries. 
 The Java code is run using the Eclipse IDE. 
 
