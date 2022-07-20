@@ -11,7 +11,7 @@ A. Database
 B. Code
 - install the Eclipse IDE for the code, and
 - configure the projects in Eclipse 
-- copy the libraries in the `lib’ directory
+- copy the libraries (_available as a zip file_) to a 'lib' directory
 
 The Chart generation 
 
@@ -36,6 +36,7 @@ is in the following folder `D:\ProgramData\MySQL\MySQL Server 5.6\data` as the `
    This will start the database in normal mode, and it will be ready for queries.
 
 **B. Code**
+
 The code consists of two aspects. The Java code and the dependent libraries. 
 The Java code is run using the Eclipse IDE. 
 
