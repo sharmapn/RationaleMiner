@@ -29,7 +29,9 @@ While installing the database, install any databases that come with it.
 is in the following folder `D:\ProgramData\MySQL\MySQL Server 5.6\data` as the `peps_new` folder.
 3. Then you have to recover this database.  First shutdown the MySQL database. 
    Then add the following lines in the `my.ini` file (on my machine, it exists in `D:\ProgramData\MySQL\MySQL Server 5.6` directory), and save the file.
+
    `innodb_force_recovery=1` 
+
    Then start the database via the Windows service and the database will be recovered. 
    Then stop the database, comment the above line and start the database again. 
    This will start the database in normal mode, and it will be ready for queries. 
