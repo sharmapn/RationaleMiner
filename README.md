@@ -25,9 +25,10 @@ For this carry out the following steps:
 1. First install the MySQL Community Server database version 5.6.25 from this link https://downloads.mysql.com/archives/community/. 
 Choose the Product version 5.6.25, Microsoft Windows, and Windows (x86, 64 bit).
 While installing the database, install any sample or system databases that come with it.
-2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. 
 
+2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. 
 Store this folder in the MySQL data directory. For instance, on my computer, this 'data' is in the following folder `D:\ProgramData\MySQL\MySQL Server 5.6\data` as the `peps_new` folder.
+
 3. Then you have to recover this database.  First shutdown the MySQL database. 
    Then add the following lines in the `my.ini` file (on my machine, it exists in `D:\ProgramData\MySQL\MySQL Server 5.6` directory), and save the file.
 
