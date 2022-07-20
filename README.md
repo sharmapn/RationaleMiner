@@ -1,8 +1,6 @@
 # RationaleMiner
-Replication Package for Rationale Miner
-
-The rationale Miner consists of two parts: the database (in MySQL format) and the Rationale Miner code (in Java).
-In brief, the basic tasks in these two parts aare as follows.  
+**Replication Package for Rationale Miner** - The rationale Miner consists of two parts: the database (in MySQL format) and the Rationale Miner code (in Java).
+In brief, the basic tasks in these two parts are as follows.  
 
 A. Database
 - install the required version of the MySQL DBMS
