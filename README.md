@@ -26,7 +26,7 @@ For this carry out the following steps: <br/>
 Choose the Product version 5.6.25, Microsoft Windows, and Windows (x86, 64 bit).
 While installing the database, in the 'Setup Type' screen, <br/> 
 (a) choose Full installation, and <br/>
-(b) retain the default 'Installation Path' and 'Data Path' <br/> 
+(b) retain the default 'Installation Path' `C:\Program Files\MySQL\` , and default 'Data Path' as `C:\ProgramData\MySQL\MySQL Server 5.6\data` <br/> 
 (c) Install any sample or system databases that come with it. <br/>
 (d) ensure the root user password is root <br/>
 As a guide you can follow the steps from this tutorial: https://www.mysqltutorial.org/install-mysql/.  <br/>
