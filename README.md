@@ -57,6 +57,16 @@ For instance, on my computer, this 'data' folder is in the following directory `
 The code consists of two aspects. The Java code and the dependent libraries. 
 The Java code is run using the Eclipse IDE. 
 
-1. The libraries are large and are hosted at the. These can be put in any directory and imported as Java
+1. Download the code from thie repository. The zip file will unzip into the `DeMapMiner` folder, which will contain many folders, ...code, 
+
+2. Install the Eclipse IDE from ..
+
+3. The libraries are contained within the `lib` folder. 
 
 2. The code is hosted within this repository. 
+
+Once setup, Open Eclipse, and select the workspace `C:\DeMapMiner\workspace\`
+
+The workspace should look like this:
+
+![image](https://user-images.githubusercontent.com/17430034/180775091-6bc1120a-9577-4ab8-82a9-c43da1dffbf5.png)
