@@ -28,11 +28,11 @@ While installing the database, in the 'Setup Type' screen, <br/>
 (a) choose Full installation, and <br/>
 (b) retain the default 'Installation Path' and 'Data Path' <br/> 
 (c) Install any sample or system databases that come with it. <br/>
-(d) ensure the root user password is root
+(d) ensure the root user password is root <br/>
 As a guide you can follow the steps from this tutorial: https://www.mysqltutorial.org/install-mysql/.  <br/>
-Though, in this guide the installation is carried out using MySQL installer and where the MySQL software is automatically downloaded.  <br/>
-As in our approach, we directly install the software from the (https://downloads.mysql.com/archives/community/) website,  <br/>
-thus Step 3 is not required and wont be part of the installation steps, <br/>
+However, in this guide the installation is carried out using MySQL installer and where the MySQL software is automatically downloaded,   <br/>
+while in our approach, we directly install the software from the (https://downloads.mysql.com/archives/community/) website,  <br/>
+and therefore Step 3 is not required and wont be part of the installation steps, <br/>
 
 2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. <br/>
 Stop the MySQL database service. <br/>
