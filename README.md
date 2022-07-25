@@ -16,7 +16,7 @@ The Chart generation
 
 In detail, the steps to set up the Database and code are as follows.
 
-**A. Database**
+**A. Database Installation and Setup**
 
 The database is named `peps_new'. A 6GB zipfile is hosted on kaggle at this address. It contains the entire MySQL data directory 
 and when unzipped is 35GB in size. <br/>
@@ -29,14 +29,17 @@ While installing the database, in the 'Setup Type' screen, <br/>
 (b) retain the default 'Installation Path' `C:\Program Files\MySQL\` , and default 'Data Path' as `C:\ProgramData\MySQL\MySQL Server 5.6\data` <br/> 
 (c) Install any sample or system databases that come with it. <br/>
 (d) ensure the root user password is root <br/>
-As a guide you can follow the steps from this tutorial: https://www.mysqltutorial.org/install-mysql/.  <br/>
+As a guide you can follow the steps from this tutorial: `https://www.mysqltutorial.org/install-mysql/`.  <br/>
 However, in this guide the installation is carried out using MySQL installer and where the MySQL software is automatically downloaded,   <br/>
-while in our approach, we directly install the software from the (https://downloads.mysql.com/archives/community/) website,  <br/>
+while in our approach, we directly install the software from the (`https://downloads.mysql.com/archives/community/`) website,  <br/>
 and therefore Step 3 is not required and wont be part of the installation steps, <br/>
 
-2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. <br/>
-Stop the MySQL database service. <br/>
-Store this folder in the MySQL data directory **replacing the existing 'data' folder**. <br/>
+2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database from here: <br/>
+`www.kaggle.com/dataset/d2080fe971b71e11afe1d92688953f27423b0631a669e3a0bdc69e6e813b386e`
+
+First, stop the MySQL database service. <br/>
+In the `C:\ProgramData\MySQL\MySQL Server 5.6\data` directory of your machine, rename the existing `data` folder to some other name, e.g. `dataOriginal`
+Store the downloaded folder in the MySQL data directory **thus, we replace the existing 'data' folder**. <br/>
 For instance, on my computer, this 'data' folder is in the following directory `C:\ProgramData\MySQL\MySQL Server 5.6\data`.
 
 3. Then you have to recover this database.  First shutdown the MySQL database. 
