@@ -25,9 +25,10 @@ For this carry out the following steps: <br/>
 1. First install the MySQL Community Server database version 5.6.25 from this link https://downloads.mysql.com/archives/community/. 
 Choose the Product version 5.6.25, Microsoft Windows, and Windows (x86, 64 bit).
 While installing the database, in the 'Setup Type' screen, <br/> 
-choose Full installation, and <br/>
-retain the default 'Installation Path' and 'Data Path' <br/> 
-Install any sample or system databases that come with it. <br/>
+(a) choose Full installation, and <br/>
+(b) retain the default 'Installation Path' and 'Data Path' <br/> 
+(c) Install any sample or system databases that come with it. <br/>
+(d) ensure the root user password is root
 As a guide you can follow the steps from this tutorial: https://www.mysqltutorial.org/install-mysql/.  <br/>
 Though, in this guide the installation is carried out using MySQL installer and where the MySQL software is automatically downloaded.  <br/>
 As in our approach, we directly install the software from the (https://downloads.mysql.com/archives/community/) website,  <br/>
