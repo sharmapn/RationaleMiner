@@ -24,7 +24,14 @@ This is easiest way to recreate the MySQL database: to recover the database on a
 For this carry out the following steps: <br/>
 1. First install the MySQL Community Server database version 5.6.25 from this link https://downloads.mysql.com/archives/community/. 
 Choose the Product version 5.6.25, Microsoft Windows, and Windows (x86, 64 bit).
-While installing the database, install any sample or system databases that come with it.
+While installing the database, in the 'Setup Type' screen, <br/> 
+choose Full installation, and <br/>
+retain the default 'Installation Path' and 'Data Path' <br/> 
+Install any sample or system databases that come with it. <br/>
+As a guide you can follow the steps from this tutorial: https://www.mysqltutorial.org/install-mysql/.  <br/>
+Though, in this guide the installation is carried out using MySQL installer and where the MySQL software is automatically downloaded.  <br/>
+As in our approach, we directly install the software from the (https://downloads.mysql.com/archives/community/) website,  <br/>
+thus Step 3 is not required and wont be part of the installation steps, <br/>
 
 2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database. <br/>
 Stop the MySQL database service. <br/>
