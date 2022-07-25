@@ -54,18 +54,17 @@ For instance, on my computer, this 'data' folder is in the following directory `
 
 **B. Code**
 
-The code consists of two aspects. The Java code and the dependent libraries. 
+The code consists of two aspects: the rationale miner code in Java and the dependent libraries. 
 The Java code is run using the Eclipse IDE. 
 
-1. Download the code from thie repository. The zip file will unzip into the `DeMapMiner` folder, which will contain many folders, ...code, 
+1. The code is hosted within this repository, so download the code from here. <br/>
+Then, create a folder named `C:\DeMapMiner` folder and store the code in that directory. 
 
-2. Install the Eclipse IDE from ..
+2. Install the Eclipse IDE from `https://www.eclipse.org/downloads/`. A direct link to the current installer executable on that page is <br/> `https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-win64.exe`
 
-3. The libraries are contained within the `lib` folder. 
+3. The libraries are contained within the `lib` folder. They are already linked.
 
-2. The code is hosted within this repository. 
-
-Once setup, Open Eclipse, and select the workspace `C:\DeMapMiner\workspace\`
+2. Once setup, Open Eclipse, and select the workspace `C:\DeMapMiner\workspace\`
 
 The workspace should look like this:
 
