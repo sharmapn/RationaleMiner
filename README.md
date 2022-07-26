@@ -83,12 +83,10 @@ Also, the parameter sweepng has been cariied out. Thus, one can proceed directly
 In this step. the heuristics approach is used to assign a score to sentences from messages of _accepted_ and _rejected_ PEPs.
 Note that this task can take approximately 48 hours to complete.
 
-2. Parameter sweeping is used to assign the optmum scores to each of the heuristics. In doing so, we also see whpch are the influential heuristics. 
-Note that this task will consider trying  different values for five most influential heuristics, and will take approximately five days to complete. 
-
 2. Ranking evaluation  
 The main ranking evaluation is within the rationaleMiner (project) -> rankingEvaluation (package) -> RankingEvaluation_Main.java class <br/>
-In that script, the following tasks need to be performed one after another. <br/>
+Parameter sweeping is used to assign the optimum scores to each of the heuristics. In doing so, we also see whpch are the influential heuristics. 
+In that class, the following tasks need to be performed one after another. All these tasks are needed for parameter sweeping. <br/> 
 ```
 static Boolean removeDuplicates_Rank_TransferToNewTable = false, //we only remove duplicates once ever, ideally 
                weightAllocation = false,       //main processing 
@@ -97,4 +95,6 @@ static Boolean removeDuplicates_Rank_TransferToNewTable = false, //we only remov
                assignFinalWeights = true;      //final scores are assigned
 ```
 
+Note that this task will consider trying  different values for five most influential heuristics, and will take approximately five days to complete.
+However, these tasks have already been carried out and the database has been populated with the results.
 
