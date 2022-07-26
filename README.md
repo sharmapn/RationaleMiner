@@ -54,17 +54,19 @@ For instance, on my computer, this 'data' folder is in the following directory `
 
 **B. Code**
 
-The code consists of two aspects: the rationale miner code in Java and the dependent libraries. 
-The Java code is run using the Eclipse IDE. 
+The Rationale Miner tool is part of the DeMap Miner tool. Thus, it exists as a separate project within the `https://github.com/sharmapn/DeMaPMiner` repository. 
+However, all the code (i.e. projects) within the DeMap Miner repository is needed to execute the Rationale Miner tool, as some code from other projects are referenced. 
 
-1. The code is hosted within this repository, so download the code from here. <br/>
-Then, create a folder named `C:\DeMapMiner` folder and store the code in that directory. 
+1. Download all the code from the `https://github.com/sharmapn/DeMaPMiner` repository. <br/>
+Then, create a folder named `C:\DeMapMiner` folder and transfer the code in that directory. <br/>
+The DeMap Miner folder consists of; <br/>
+- the Java code in the `DeMap Miner\workspace\rationaleMiner` <br/>
+- the dependent libraries in the `lib` folder <br/>
+- the input and output files in the `` <br/>
 
-2. Install the Eclipse IDE from `https://www.eclipse.org/downloads/`. A direct link to the current installer executable on that page is <br/> `https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-win64.exe`
+2. The Java code is run using the Eclipse IDE. Install the Eclipse IDE from `https://www.eclipse.org/downloads/`. A direct link to the current installer executable on that page is <br/> `https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-win64.exe`
 
-3. The libraries are contained within the `lib` folder. They are already linked.
-
-2. Once setup, Open Eclipse, and select the workspace `C:\DeMapMiner\workspace\`
+3. Once setup, Open Eclipse, and select the workspace `C:\DeMapMiner\workspace\`
 
 The workspace should look like this:
 
