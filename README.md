@@ -92,10 +92,9 @@ In that script, the following tasks need to be performed one after another. <br/
 ```
 static Boolean removeDuplicates_Rank_TransferToNewTable = false, //we only remove duplicates once ever, ideally 
                weightAllocation = false,       //main processing 
-               removeFeatures = false,		     //remove variables one by one from total probability 
+               removeFeatures = false,		     //remove variables one by one from total score 
                trydifferentweights = false,    //set this if we want to check feature importance so above value would be automatically set for each variable; 
-                                               //and //true = weightAllocation
-               assignFinalWeights = true;    
+               assignFinalWeights = true;      //final scores are assigned
 ```
 
 
