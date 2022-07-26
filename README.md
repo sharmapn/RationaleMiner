@@ -87,5 +87,13 @@ Note that this task can take approximately 48 hours to complete.
 Note that this task will consider trying  different values for five most influential heuristics, and will take approximately five days to complete. 
 
 2. Ranking evaluation  
+The main ranking evaluation is within the rationaleMiner (project) -> rankingEvaluation (package) -> RankingEvaluation_Main.java class <br/>
+In that script, the following tasks need to be performed one after another. <br/>
+`static Boolean removeDuplicates_Rank_TransferToNewTable = false, //we only remove duplicates once ever, ideally <br/>
+               weightAllocation = false,       //main processing <br/>
+               removeFeatures = false,		     //remove variables one by one from total probability <br/>
+               trydifferentweights = false,    //set this if we want to check feature importance so above value would be automatically set for each variable; 
+                                               //and //true = weightAllocation
+               assignFinalWeights = true;    `  
 
 
