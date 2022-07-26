@@ -3,13 +3,13 @@
 In brief, the basic tasks in these two parts are as follows.  
 
 A. Database <br/>
--install the required version of the MySQL DBMS <br/>
--restore the ‘peps_new’ database <br/>
+  - install the required version of the MySQL DBMS <br/>
+  - restore the ‘peps_new’ database <br/>
 
 B. Code <br/>
--install the Eclipse IDE for the code, and <br/>
--configure the projects in Eclipse <br/>
--copy the libraries (_available as a zip file_) to a 'lib' directory <br/>
+  - install the Eclipse IDE for the code, and <br/>
+  - configure the projects in Eclipse <br/>
+  - copy the libraries (_available as a zip file_) to a 'lib' directory <br/>
 
 The Chart generation 
 
