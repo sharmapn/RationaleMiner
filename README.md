@@ -73,12 +73,12 @@ The workspace should look like this:
 
 ![image](https://user-images.githubusercontent.com/17430034/180775091-6bc1120a-9577-4ab8-82a9-c43da1dffbf5.png)
 
-**Generating the results.
+**Generating the results.**
 
 The results generation consists of the following aspects
 
 1. Generating the candidate reason sentences and messages. 
-In this step. the heuristics approach is used to assign a score to sentences from messages of __accepted and __rejected PEPs.
+In this step. the heuristics approach is used to assign a score to sentences from messages of _accepted_ and _rejected_ PEPs.
 Note that this task can take approximately 48 hours to complete.
 
 2. Parameter sweeping is used to assign the optmum scores to each of the heuristics. In doing so, we also see whpch are the influential heuristics. 
