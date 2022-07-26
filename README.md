@@ -60,9 +60,9 @@ However, all the code (i.e. projects) within the DeMap Miner repository is neede
 1. Download all the code from the `https://github.com/sharmapn/DeMaPMiner` repository. <br/>
 Then, create a folder named `C:\DeMapMiner` folder and transfer the code in that directory. <br/>
 The DeMap Miner folder consists of; <br/>
-- the Java code in the `DeMap Miner\workspace\rationaleMiner` <br/>
-- the dependent libraries in the `lib` folder <br/>
-- the input and output files in the `` <br/>
+  - the Java code in the `DeMap Miner\workspace\rationaleMiner` <br/>
+  - the dependent libraries in the `lib` folder <br/>
+  - the input and output files in the `` <br/>
 
 2. The Java code is run using the Eclipse IDE. Install the Eclipse IDE from `https://www.eclipse.org/downloads/`. A direct link to the current installer executable on that page is <br/> `https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-win64.exe`
 
