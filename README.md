@@ -37,10 +37,10 @@ and therefore Step 3 is not required and wont be part of the installation steps,
 2. Download the `data` folder containing the database files for the 'peps_new' database and other MySQL database from here: <br/>
 `www.kaggle.com/dataset/d2080fe971b71e11afe1d92688953f27423b0631a669e3a0bdc69e6e813b386e`
 
-First, stop the MySQL database service. <br/>
-In the `C:\ProgramData\MySQL\MySQL Server 5.6\data` directory of your machine, rename the existing `data` folder to some other name, e.g. `dataOriginal`
-Store the downloaded folder in the MySQL data directory **thus, we replace the existing 'data' folder**. <br/>
-For instance, on my computer, this 'data' folder is in the following directory `C:\ProgramData\MySQL\MySQL Server 5.6\data`.
+  Then, stop the MySQL database service. <br/>
+  In the `C:\ProgramData\MySQL\MySQL Server 5.6\data` directory of your machine, rename the existing `data` folder to some other name, e.g. `dataOriginal`
+  Store the downloaded folder in the MySQL data directory **thus, we replace the existing 'data' folder**. <br/>
+  For instance, on my computer, this 'data' folder is in the following directory `C:\ProgramData\MySQL\MySQL Server 5.6\data`.
 
 3. Then you have to recover this database.  First shutdown the MySQL database. 
    Then add the following lines in the `my.ini` file (on my machine, it exists in `C:\ProgramData\MySQL\MySQL Server 5.6` directory), and save the file.
