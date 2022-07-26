@@ -60,7 +60,7 @@ However, all the code (i.e. projects) within the DeMap Miner repository is neede
 1. Download all the code from the `https://github.com/sharmapn/DeMaPMiner` repository. <br/>
 Then, create a folder named `C:\DeMapMiner` folder and transfer the code in that directory. <br/>
 The DeMap Miner folder consists of; <br/>
-   - the Java code in the `DeMap Miner\workspace\rationaleMiner` <br/>
+   - the Java code for the Rationale Miner  in the `DeMap Miner\workspace\rationaleMiner` <br/>
    - the dependent libraries in the `lib` folder <br/>
    - the input and output files in the `` <br/>
 
