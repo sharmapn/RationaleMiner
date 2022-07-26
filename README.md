@@ -11,7 +11,8 @@ B. Code <br/>
   - configure the projects in Eclipse <br/>
   - copy the libraries (_available as a zip file_) to a 'lib' directory <br/>
 
-The Chart generation 
+C. Generating the results. This includes the following aspects: <br/>
+  - The Chart generation 
 
 
 In detail, the steps to set up the Database and code are as follows.
