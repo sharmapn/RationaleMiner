@@ -28,7 +28,7 @@ While installing the database, in the 'Setup Type' screen, <br/>
 (a) choose Full installation, and <br/>
 (b) retain the default 'Installation Path' `C:\Program Files\MySQL\` , and default 'Data Path' as `C:\ProgramData\MySQL\MySQL Server 5.6\data` <br/> 
 (c) Install any sample or system databases that come with it. <br/>
-(d) ensure the root user password is root <br/>
+(d) ensure the `root` user password is `root` <br/>
 As a guide you can follow the steps from this tutorial: `https://www.mysqltutorial.org/install-mysql/`.  <br/>
 However, in this guide the installation is carried out using MySQL installer and where the MySQL software is automatically downloaded,   <br/>
 while in our approach, we directly install the software from the (`https://downloads.mysql.com/archives/community/`) website,  <br/>
