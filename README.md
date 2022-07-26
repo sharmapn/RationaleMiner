@@ -73,7 +73,7 @@ The workspace should look like this:
 
 ![image](https://user-images.githubusercontent.com/17430034/180775091-6bc1120a-9577-4ab8-82a9-c43da1dffbf5.png)
 
-**Generating the results.**
+**C. Generating the results.**
 
 The results generation consists of the following three aspects, which can be executed one after another. <br/>
 Note the results from the first step has already been populated in the database. <br/>
