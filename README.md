@@ -75,7 +75,9 @@ The workspace should look like this:
 
 **Generating the results.**
 
-The results generation consists of the following aspects
+The results generation consists of the following three aspects, which can be executed one after another. <br/>
+Note the results from the first step has already been populated in the database. <br/>
+Also, the parameter sweepng has been cariied out. Thus, one can proceed directly to the Ranking evaluation. 
 
 1. Generating the candidate reason sentences and messages. 
 In this step. the heuristics approach is used to assign a score to sentences from messages of _accepted_ and _rejected_ PEPs.
@@ -84,6 +86,6 @@ Note that this task can take approximately 48 hours to complete.
 2. Parameter sweeping is used to assign the optmum scores to each of the heuristics. In doing so, we also see whpch are the influential heuristics. 
 Note that this task will consider trying  different values for five most influential heuristics, and will take approximately five days to complete. 
 
-2. Rankig evaluation 
+2. Ranking evaluation 
 
 
