@@ -1,6 +1,9 @@
 # RationaleMiner
 **Replication Package for Rationale Miner** - Using the rationale Miner requires configuring the database (in MySQL) and the code (Java).
-In brief, the basic tasks in these two parts are as follows.  
+
+In brief, the basic tasks in these two parts are as follows.  <br/>
+A video has been made which explains how to configure the rationale miner replication package on a new machine. <br/>
+It can be viewed here: https://www.youtube.com/watch?v=l3yITQ8MuR0 
 
 A. Database <br/>
   - install the required version of the MySQL DBMS <br/>
